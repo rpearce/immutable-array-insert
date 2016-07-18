@@ -1,6 +1,6 @@
 {
   "name": "immutable-array-insert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easily insert items in an array without mutating the original array.",
   "main": "index.js",
   "scripts": {
