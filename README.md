@@ -16,6 +16,12 @@ const newArr = insert(arr, 2, 'ABC', { name: 'Hello' })
 console.log(newArr)
 // => [1, 2, 'ABC', Object, 3, 4, 5, 6]
 ```
+The first 2 arguments are
+
+1. the original array
+1. the index at which to insert the items
+
+and the rest of the parameters are variadic, allowing you to pass as my items as arguments as you'd like.
 
 ## Notes
 This library uses a few ES6/ES2015 features to make this as simple as possible:
