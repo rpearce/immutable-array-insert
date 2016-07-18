@@ -1,0 +1,24 @@
+{
+  "name": "immutable-array-insert",
+  "version": "0.1.0",
+  "description": "Easily insert items in an array without mutating the original array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpearce/immutable-array-insert.git"
+  },
+  "keywords": [
+    "immutable",
+    "array",
+    "insert"
+  ],
+  "author": "Robert Pearce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpearce/immutable-array-insert/issues"
+  },
+  "homepage": "https://github.com/rpearce/immutable-array-insert#readme"
+}
