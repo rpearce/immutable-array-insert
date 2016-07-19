@@ -27,8 +27,6 @@ The first 2 arguments are
 
 and the rest of the parameters are variadic, allowing you to pass as my items as arguments as you'd like.
 
-## Official Spec
-
 * * *
 
 ### insert(array, index, items)
@@ -51,6 +49,7 @@ This library uses a few ES6/ES2015 features to make this as simple as possible:
   * [arrow functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
   * [spread operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
   * [rest parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+  * [Array.isArray()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
 If you would like to see an ES5 version of this, please create an issue.
 
