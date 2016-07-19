@@ -1,4 +1,4 @@
-const insert = require('./index')
+const insert = require('./lib/index')
 const { expect } = require('chai')
 
 describe('Insert', () => {
