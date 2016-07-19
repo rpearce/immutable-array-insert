@@ -1,4 +1,8 @@
 # immutable-array-insert
+![](https://img.shields.io/npm/dm/immutable-array-insert.svg)
+![](https://img.shields.io/npm/v/immutable-array-insert.svg)
+
+
 Easily insert items in an array without mutating the original array.
 
 ## Installation
