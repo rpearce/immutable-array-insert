@@ -23,6 +23,25 @@ The first 2 arguments are
 
 and the rest of the parameters are variadic, allowing you to pass as my items as arguments as you'd like.
 
+## Official Spec
+
+* * *
+
+### insert(array, index, items)
+
+Insert an item in an array
+without mutating the original array.
+
+**Parameters**
+
+**array**: `array`, The source array.
+
+**index**: `number`, The index at which you'd like to insert.
+
+**items**: `*`, Additional arguments: the items to be inserted at the index.
+
+* * *
+
 ## Notes
 This library uses a few ES6/ES2015 features to make this as simple as possible:
   * [arrow functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
