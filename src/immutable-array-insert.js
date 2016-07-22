@@ -8,8 +8,8 @@
  * @param {...*} items - Additional arguments: the items to be inserted at the index.
  */
 const insert = (array, index, ...items) => {
-  if (!Array.isArray(array)) throw new Error(errors.array)
-  else if (!isInteger(index)) throw new Error(errors.index)
+  if (!Array.isArray(array)) throw new TypeError(errors.array)
+  else if (!isInteger(index)) throw new TypeError(errors.index)
 
   return [
     ...array.slice(0, index), // items before index
